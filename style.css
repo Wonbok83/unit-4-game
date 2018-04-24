@@ -18,7 +18,9 @@ body {
     padding: 10px;
 
 } 
-
+.background_music{
+    visibility: hidden
+}
 
 .jumbotron{
 background:transparent;

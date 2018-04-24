@@ -13,9 +13,7 @@ $(document).ready(function () {
     var visibleHero;
 
 
-    // var myMusic;
-    //   myMusic = new sound("img");
-    // myMusic.play();
+   
 
 
     //reset variables    
@@ -27,7 +25,6 @@ $(document).ready(function () {
         characterremaing = 3;
         isHero = true;
         isEnemy = true;
-        var myMusic;
         $(".attack").attr("style", "display: none");
         $("#thor").attr("style", "display: block");
         $("#captain_america").attr("style", "display: block");
@@ -35,11 +32,14 @@ $(document).ready(function () {
         $("#black_panther").attr("style", "display: block");
         console.log("reset");
 
+
+       
     }
 
     // select the hero 
     $(".container").on("click", ".character", function () {
 
+        
 
         if (isHero == false && isEnemy == false) {
             return false;
