@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+    <title>jquery_game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="game.js"></script>
+
+</head>
+
+
+<body>
+
+    <embed src="img/theme.mp3" autostart="true" loop="true" hidden="true">
+
+
+
+    <div class="container">
+        <!-- top -->
+        <div class="jumbotron">
+            <h1 class="text-center" style="color: red">
+                <strong>AVENGERS WAR</strong>
+            </h1>
+            <h2 class="text-center">Select your hero and then click your enemy</h2>
+
+            <div class="text-center">
+                <button id="button_attack" class="btn btn-primary mx-auto text-center attack">
+                    <p>attack</p>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 text-center">
+
+                <img class="image character" id="ironman" data-value="180" data-attack="25" src="img/ironman.jpeg">
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <img class="image character" id="thor" data-value="100" data-attack="30" src="img/thor.jpeg">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 text-center">
+                <img class="image character" id="captain_america" data-value="160" data-attack="20" src="img/captain_america.jpeg">
+            </div>
+
+            <div class="col-sm-6">
+                <img class="image character" id="black_panther" data-value="140" data-attack="10" src="img/blackPanther.jpeg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class=" mb-2">
+                    <h5 class="text-center" style="color: white">status:</h5>
+                    <div class="text-center">
+                        <h5 id="result" style="color: white"> </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+   
+
+</body>
+
+</html>
